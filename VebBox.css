@@ -1,0 +1,229 @@
+.imga{
+    background: url(/asset/pexels-sora-shimazaki-5926399.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.a1{
+    margin-top: 10px;
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+  
+}
+.cola{
+    /* background-color: green; */
+    display: flex;
+    justify-content: flex-start;
+    
+    
+}
+.a3{
+    padding: 10px;
+    
+}
+
+nav{
+    border: 2px solid;
+    border-color:gray;
+}
+.details{
+    
+    border: 1px solid;
+}
+.cola2{
+    display: flex;
+    justify-content: flex-end;
+}
+.icon1{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+}
+.aa{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.para{
+    font-size: 20px;
+    
+}
+.icon2{
+    font-size: 50px;
+}
+.pa{
+    font-size: 16px;
+    color: #999;
+    font-weight: 400;
+    line-height: 1.8;
+    
+}
+i{
+    font-size: 50px;
+    color:  #4986fc;
+    padding: 10px;
+}
+.dd{
+    padding: 20px;
+}
+.h{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.a{
+    color: white;
+    background-color:#4986fc ;
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+    border: 0px;
+    margin: 5px;
+}
+.spa{
+    padding-top: 230px;
+}
+.team{
+    height: 100%;
+    width: 100vw;
+    background-color: #141b25;
+}
+.gas{
+    margin-right: 20px;
+    padding: 5px;
+    font-size: 80px;
+    color:white;
+}
+
+.client{
+    background-image: url(/asset/dot.jpg);
+    opacity: 0.7;
+    
+    background-size: cover;
+    
+}
+.non{
+        
+       
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+   
+    
+ }
+
+.bob{
+  margin: 10px;
+  border-radius: 10px;
+  padding: 5px;
+ width: 410px;
+ height: 400px;
+  
+}
+.non img:hover{
+    transform: scale(1.1);
+    opacity: .3;
+}
+.sub{
+    background-image: url(/asset/hoho1.webp);
+    background-size: cover;
+    padding: 70px;
+}
+
+a:hover{
+    color: blue;
+    transform: scale(1.1);
+  
+}
+i:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 5px 5px white;
+}
+.aa{
+  
+    animation: aa;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aa {
+   0%{
+    
+    transform: translateY(0px);
+    color: white;
+    text-shadow: 4px 4px 9px green;
+   }
+   25%{
+    transform: translatey(-50px);
+    text-shadow: 4px 4px 9px red;
+    color: red;
+   }
+   50%{
+    /* transform: scaleX(1.2); */
+    /* transform: translateX(-500px); */
+    text-shadow: 4px 4px 9px peru;
+    color: peru;
+   }
+   75%{
+    /* transform: translateY(-50px); */
+    text-shadow: 4px 4px 9px purple;
+    color: purple;
+   }
+   100%{
+    /* transform: translateX(200px); */
+    
+    text-shadow: 4px 4px 9px saddlebrown;
+    color: saddlebrown;
+   }
+
+   
+}
+.para{
+    animation: para;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes para {
+    0%{
+      color: white;
+      /* font-weight: 200; */
+    }
+    25%{
+        /* font-weight: 400; */
+        color: red;
+    }
+    50%{
+       color: peru;
+       font-weight: 600;
+    }
+    75%{
+        /* font-weight: 800; */
+        color: purple;
+    }
+    100%{
+        /* font-weight: 1000; */
+        color: saddlebrown;
+    }
+    
+}
+.card:hover{
+    transition-duration: 1s;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.082);
+
+}
+.card{
+    transition: 3s;
+}
